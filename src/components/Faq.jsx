@@ -27,7 +27,7 @@ function Faq() {
   }
 ]
   return (
-    <div className='flex mt-20 flex-col items-center text-center text-slate-800 px-3'>
+    <div className='flex mt-20 flex-col items-center text-center text-slate-800 '>
 
 
      <h1 className="text-3xl md:text-4xl font-semibold mt-2 tracking-wide text-center relative inline-block">

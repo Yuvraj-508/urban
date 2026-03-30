@@ -20,7 +20,7 @@ function Navbar() {
           <img
             src="/logourban.png"
             alt="logo"
-            className="h-12 md:h-14 object-contain"
+            className="h-8 md:h-14 object-contain"
           />
         </NavLink>
 

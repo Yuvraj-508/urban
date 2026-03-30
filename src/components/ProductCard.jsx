@@ -13,7 +13,7 @@ function ProductCard({ product }) {
       }}
       className="border border-gray-200 rounded-xl p-2 bg-white
       hover:shadow-lg transition duration-300 cursor-pointer
-      w-full max-w-[170px] sm:max-w-[220px] md:max-w-[250px] lg:max-w-[280px]
+      w-full max-w-[210px] sm:max-w-[250px] md:max-w-[250px] lg:max-w-[280px]
       mx-auto"
     >
       {/* Image */}

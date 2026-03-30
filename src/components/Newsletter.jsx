@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Newsletter() {
   return (
-    <div className="mt-24 px-4">
+    <div className="mt-24 ">
 
       <div className="max-w-6xl mx-auto bg-white border border-gray-200 rounded-2xl shadow-sm p-8 md:p-12 grid md:grid-cols-3 gap-10 items-center justify-center"> 
 

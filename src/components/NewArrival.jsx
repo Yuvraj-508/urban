@@ -9,7 +9,7 @@ function NewArrival() {
     .slice(0, 10);
 
   return (
-    <section className="mt-16 sm:mt-20 lg:mt-24 px-4 sm:px-6 lg:px-10">
+    <section className="mt-16 sm:mt-20 lg:mt-24 ">
       
       {/* Section Heading */}
       <div className="flex items-center justify-between mb-8">
