@@ -123,7 +123,7 @@ ${items}
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "9b609585-2571-4097-9603-87e7295cc943",
+          access_key: "dc4ae8c8-a0ef-4f61-a234-55f1056f196f",
           subject: "New Order - UrbanKicks",
           name: savedAddress.firstName + " " + savedAddress.lastName,
           phone: savedAddress.phone,
@@ -142,7 +142,7 @@ ${items}
     }
 
     window.open(
-      `https://wa.me/916280276965?text=${encodeURIComponent(orderText)}`
+      `https://wa.me/916006488288?text=${encodeURIComponent(orderText)}`
     );
 
     setLoading(false);

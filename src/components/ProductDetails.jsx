@@ -68,7 +68,7 @@ const ProductDetails = () => {
   return (
     <div className="max-w-6xl w-full  mx-auto">
       {/* Breadcrumb */}
-      <div className="max-w-7xl mx-auto px-3 md:px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto px-3   md:px-8 lg:px-12">
         {/* Breadcrumb */}
         <p className="text-xs md:text-sm text-gray-500 mb-6">
           Home / Products / {product.category} /

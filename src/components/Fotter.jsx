@@ -126,7 +126,6 @@ function Fotter() {
           <ul className="space-y-3 text-gray-500 text-sm">
 
             <li>📍 India</li>
-            <li>📞 +91 9876543210</li>
             <li>✉ support@urbankicks.com</li>
 
           </ul>
