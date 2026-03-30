@@ -18,7 +18,7 @@ function Navbar() {
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
           <img
-            src={assets.logo}
+            src="/logourban.png"
             alt="logo"
             className="h-12 md:h-14 object-contain"
           />

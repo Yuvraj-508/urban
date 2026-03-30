@@ -1,7 +1,7 @@
 import search_icon from "./search_icon.svg";
 import nav_cart_icon from "./nav_cart_icon.svg";
 import hero  from "./hero.png";
-import logo from "./logourban.png";
+// import logo from "./logourban.png";
 import jordan from "./jordan.png";
 import airforce from "./airforce.png";
 import addsuper from "./addsuper.png";
@@ -15,7 +15,6 @@ export const assets={
     search_icon,
     nav_cart_icon,
     hero,
-    logo,
     jordan,
     airforce,
     addsuper,
