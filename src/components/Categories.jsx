@@ -35,7 +35,7 @@ function Categories() {
           <div
             key={idx}
             onClick={() => handleCategoryClick(category)}
-            className="relative rounded-2xl overflow-hidden cursor-pointer group shadow-sm hover:shadow-xl transition duration-300"
+            className="relative rounded-2xl overflow-hidden cursor-pointer group md:shadow-sm md:hover:shadow-xl transition duration-300"
           >
 
             {/* Image */}

@@ -77,28 +77,37 @@ const ProductDetails = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-stretch">
           {/* IMAGE SECTION */}
-         <div className="flex flex-col-reverse md:flex-row gap-4 h-full">
-            {/* Thumbnails */}
-            <div className="flex md:flex-col gap-3">
-              {product.image.map((img, index) => (
-                <div
-                  key={index}
-                  onClick={() => setThumbnail(img)}
-                  className={`w-16 h-16 md:w-20 md:h-20 border rounded-lg overflow-hidden cursor-pointer 
-${thumbnail === img ? "border-indigo-500" : "border-gray-200"}`}
-                >
-                  <img src={img} className="w-full h-full object-contain p-1" />
-                </div>
-              ))}
-            </div>
-            {/* Main Image */}
-<div className="border border-gray-300 w-[420px] aspect-square rounded-xl flex items-center justify-center bg-gray-50 overflow-hidden">              {" "}
-              <img
-                src={thumbnail}
-                className="max-w-full max-h-full object-contain hover:scale-110 transition duration-300"
-              />{" "}
-            </div>{" "}
-          </div>
+       <div className="flex flex-col-reverse md:flex-row gap-4 h-full w-full">
+  {/* Thumbnails */}
+  <div className="flex md:flex-col gap-3 justify-center md:justify-start">
+    {product.image.map((img, index) => (
+      <div
+        key={index}
+        onClick={() => setThumbnail(img)}
+        className={`w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 border rounded-lg overflow-hidden cursor-pointer
+        ${thumbnail === img ? "border-indigo-500" : "border-gray-200"}`}
+      >
+        <img
+          src={img}
+          alt={`thumbnail-${index}`}
+          className="w-full h-full object-contain p-1"
+        />
+      </div>
+    ))}
+  </div>
+
+  {/* Main Image */}
+  <div
+    className="border border-gray-300 w-full max-w-[500px] aspect-square rounded-xl
+    flex items-center justify-center bg-gray-50 overflow-hidden mx-auto"
+  >
+    <img
+      src={thumbnail}
+      alt={product.name}
+      className="max-w-full max-h-full object-contain hover:scale-110 transition duration-300"
+    />
+  </div>
+</div>
 
           {/* PRODUCT INFO */}
           <div>
