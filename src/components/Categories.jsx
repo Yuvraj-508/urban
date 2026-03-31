@@ -16,7 +16,7 @@ function Categories() {
   };
 
   return (
-    <div className="md:mt-24">
+    <div className="mt-20">
 
       {/* Heading */}
       <div className="text-center">
@@ -28,7 +28,7 @@ function Categories() {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-7">
 
         {categories.map((category, idx) => (
 
