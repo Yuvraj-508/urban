@@ -24,7 +24,7 @@ function Reviews() {
       <style>
         {`
         .marquee {
-          animation: scroll 25s linear infinite;
+          animation: scroll 15s linear infinite;
         }
 
         @keyframes scroll {
@@ -59,7 +59,7 @@ function Reviews() {
         >
 
           {/* Left Fade */}
-          <div className="absolute left-0 top-0 h-full w-16 md:w-24 z-10 pointer-events-none bg-gradient-to-r from-white to-transparent" />
+          <div className="absolute left-0 top-0 h-full w-16 md:w-24 z-10 pointer-events-none bg-gradient-to-r md:from-white to-transparent" />
 
           {/* Cards */}
           <div

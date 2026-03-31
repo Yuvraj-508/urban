@@ -13,7 +13,7 @@ function WelcomePopup() {
 
     const hideTimer = setTimeout(() => {
       setShowPopup(false);
-    }, 4500);
+    }, 3500);
 
     return () => {
       clearTimeout(timer);
@@ -53,7 +53,6 @@ function WelcomePopup() {
 
           <p className="mt-3 text-sm sm:text-base text-gray-500 leading-relaxed">
             Discover premium sneakers with unmatched style, comfort, and streetwear vibes.
-            Explore our latest collection and find your perfect pair.
           </p>
 
           <button
