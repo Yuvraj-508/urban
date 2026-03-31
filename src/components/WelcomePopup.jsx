@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 
@@ -48,11 +47,15 @@ function WelcomePopup() {
           </div>
 
           <h2 className="mt-5 text-2xl sm:text-3xl font-bold text-gray-800">
-            Welcome to UrbanKicks
+            Welcome to{" "}
+            <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              UrbanKicks
+            </span>
           </h2>
 
           <p className="mt-3 text-sm sm:text-base text-gray-500 leading-relaxed">
-            Discover premium sneakers with unmatched style, comfort, and streetwear vibes.
+            Discover premium sneakers with unmatched style, comfort, and
+            streetwear vibes.
           </p>
 
           <button
