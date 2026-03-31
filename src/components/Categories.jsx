@@ -16,7 +16,7 @@ function Categories() {
   };
 
   return (
-    <div className="mt-24">
+    <div className="md:mt-24">
 
       {/* Heading */}
       <div className="text-center">
